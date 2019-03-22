@@ -19,4 +19,4 @@ Here are the projects so far.
 
 
 ____________________
-<sub> &copy; UofT SCS Coding Boot Camp Paul Xu on March 21, 2019 </sub>
+<sub> &copy; Paul Xu at Univerversity of Toronto School of Continuing Studies Coding Boot Camp in March 2019 </sub>
