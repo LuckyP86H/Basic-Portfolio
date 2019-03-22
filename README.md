@@ -16,7 +16,5 @@ Here are the projects so far.
   4. Milestone Group Project: ill-HUE-minate
   
   
-
-
 ____________________
 <sub> &copy; Paul Xu at Univerversity of Toronto School of Continuing Studies Coding Boot Camp in March 2019 </sub>
