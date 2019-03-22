@@ -19,4 +19,4 @@ Here are the projects so far.
 
 
 
-$&copyright$ UofT SCS Coding Boot Camp Paul Xu on March 21, 2019
+$/textcopyright$ UofT SCS Coding Boot Camp Paul Xu on March 21, 2019
