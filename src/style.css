@@ -1,4 +1,109 @@
-/* ...existing code... */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url('https://source.unsplash.com/random/1920x1080') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+body.dark-mode {
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+}
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode-toggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.animate-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.animate-icon:hover {
+  transform: rotate(360deg);
+}
+
+.header, .footer, .main-section, .skills-section {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: var(--text-color);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+body.dark-mode .header, body.dark-mode .footer, body.dark-mode .main-section, body.dark-mode .skills-section {
+  background-color: rgba(26, 26, 46, 0.8);
+  color: #e0e0e0;
+}
+
+.footer {
+  width: calc(100% - 40px);
+  padding: 10px 0;
+}
+
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skills-section {
+  margin-top: 20px;
+}
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.skill-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+:root {
+  --background-color: rgba(255, 255, 255, 0.8);
+  --text-color: #000000;
+}
+
+body.dark-mode :root {
+  --background-color: rgba(26, 26, 46, 0.8);
+  --text-color: #e0e0e0;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+p, label, button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+button {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: var(--text-color);
+  color: var(--background-color);
+}
 
 @keyframes fadeIn {
   from {
@@ -11,15 +116,6 @@
 
 .App {
   animation: fadeIn 1s ease-in;
-}
-
-.header, .footer {
-  background-color: #f8f9fa;
-  padding: 20px;
-}
-
-.main-section {
-  margin-top: 20px;
 }
 
 .auth-image {
@@ -37,4 +133,20 @@
 
 .work img:hover {
   transform: scale(1.05);
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-link .icon {
+  font-size: 20px;
 }

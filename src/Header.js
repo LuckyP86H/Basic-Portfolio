@@ -1,26 +1,23 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
+import { Link } from 'react-router-dom';
+import { FaUser, FaBriefcase, FaEnvelope } from 'react-icons/fa';
 import './style.css';
 
 const Header = () => (
-  <Navbar bg="light" expand="lg">
-    <Navbar.Brand href="/">Paul Xu</Navbar.Brand>
+  <Navbar bg="light" expand="lg" className="header">
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="ml-auto">
-        <LinkContainer to="/">
-          <Nav.Link>Home</Nav.Link>
-        </LinkContainer>
-        <LinkContainer to="/about">
-          <Nav.Link>About</Nav.Link>
-        </LinkContainer>
-        <LinkContainer to="/portfolio">
-          <Nav.Link>Portfolio</Nav.Link>
-        </LinkContainer>
-        <LinkContainer to="/contact">
-          <Nav.Link>Contact</Nav.Link>
-        </LinkContainer>
+      <Nav className="navbar-nav">
+        <Nav.Link as={Link} to="/">
+          <FaUser className="icon" /> About
+        </Nav.Link>
+        <Nav.Link as={Link} to="/portfolio">
+          <FaBriefcase className="icon" /> Portfolio
+        </Nav.Link>
+        <Nav.Link as={Link} to="/contact">
+          <FaEnvelope className="icon" /> Contact
+        </Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

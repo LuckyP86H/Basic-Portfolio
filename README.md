@@ -71,5 +71,3 @@ https://github.com/framer/motion
 ### License: MIT
 https://github.com/facebook/react
 ```
-____________________
-<sub> &copy; Paul Xu at Univerversity of Toronto School of Continuing Studies Coding Boot Camp in March 2019 </sub>
