@@ -1,26 +1,75 @@
-# Basic-Portfolio
+# Basic Portfolio
 
-ABOUT ME | PORTFOLIOS | CONTACT
+This is a basic portfolio project built with React.
 
-## ABOUT ME
+## Project Structure
 
-Here is a brief introduction about me. 
+```
+.
+├── README.md
+├── package-lock.json
+├── package.json
+├── public
+│   ├── Resume.pdf
+│   └── index.html
+└── src
+    ├── About.js
+    ├── App.js
+    ├── Contact.js
+    ├── Footer.js
+    ├── Header.js
+    ├── Portfolio.js
+    ├── assets
+    │   └── images
+    │       ├── cat.jpg
+    │       ├── concrete_seamless.png
+    │       ├── crystal_collector.png
+    │       ├── gif_tastic.jpg
+    │       ├── ill_HUE_minate.jpg
+    │       ├── letter_guess.jpg
+    │       ├── profile.jpeg
+    │       ├── profile.jpg
+    │       └── trivia.jpg
+    ├── content
+    │   └── aboutMe.js
+    ├── index.js
+    └── style.css
+```
 
-## PORTFOLIOS
+## Getting Started
 
-Here are the projects so far. 
-  1. Word Guess Game
-  2. Crystal Collector Game
-  3. Trival Game
-  4. Milestone Group Project: ill-HUE-minate
-  
-## Contact 
+To get started, clone the repository and install the dependencies:
 
-Here is the connection between me and people who wants to contact me and send me their concerns after browsing my web page.
+```bash
+git clone https://github.com/your-username/Basic-Portfolio.git
+cd Basic-Portfolio
+npm install
+```
 
-Future updates:
- 1. add firebase 
- 2. more design
-  
+To start the development server:
+
+```bash
+npm start
+```
+
+## Building for Production
+
+To build the project for production:
+
+```bash
+npm run build
+```
+
+## Code Citations
+
+### License: MIT
+https://github.com/react-bootstrap/react-bootstrap
+
+### License: MIT
+https://github.com/framer/motion
+
+### License: MIT
+https://github.com/facebook/react
+```
 ____________________
 <sub> &copy; Paul Xu at Univerversity of Toronto School of Continuing Studies Coding Boot Camp in March 2019 </sub>
